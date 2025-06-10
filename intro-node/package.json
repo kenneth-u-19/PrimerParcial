@@ -1,0 +1,19 @@
+{
+  "name": "intro-node",
+  "version": "1.0.0",
+  "description": "introduccion a node js, clase de diseño digital",
+  "keywords": [
+    "node",
+    "unah",
+    "disenio",
+    "digital"
+  ],
+  "main": "app.js",
+  "scripts": {
+    "dev": "node --watch app.js",
+    "start": "node app.js"
+  },
+  "author": "Kenneth Ramirez",
+  "type": "module",
+  "license": "MIT"
+}
