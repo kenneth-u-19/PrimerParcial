@@ -1,6 +1,16 @@
 
-##Lista de peliculas
+###Lista de peliculas
 GET http://localhost:3000/movies
 
-##consulta por genero
-GET http://localhost:3000/movies/search?genre=Action
+###consulta por id de pelicula
+GET http://localhost:3000/movies/1749769847016
+
+###consulta por genero
+GET http://localhost:3000/movies/search?genre=Crime
+
+
+###Consulta por genero y anio
+GET http://localhost:3000/movies/search?genre=Science%20Fiction&year=2010
+
+###Consulta por anio
+GET http://localhost:3000/movies/search?year=1994
